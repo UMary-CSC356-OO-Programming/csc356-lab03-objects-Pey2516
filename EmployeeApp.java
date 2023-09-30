@@ -152,7 +152,7 @@ public class EmployeeApp
 					inputString = keyboard.nextLine();
 					for ( int lp=0; lp<MAX_EMPLOYEES; lp++ )
 					{
-						// Verify that the employee entry has been allocated before Editing
+						// Verify that the employee entry has been allocated before Editing.
 						if ( employees[lp] != null )
 						{
 							if ( employees[lp].equals( inputString ) == true )
